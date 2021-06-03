@@ -15,5 +15,7 @@ var longest_name = (str) => {
     return sortedStrArray[9]
 }
 
-console.log("The longest name is" + (' ') + longest_name(str));
+var answer = longest_name
+
+console.log("The longest name is" + (' ') + answer(str));
 
