@@ -3,12 +3,17 @@
 //save that name to the variable longest_name
 //return Longest_name to the another variable called answer
 //log the "asnwer" variable to the screen
-var array = ["Retta", "Vern", "Marica", "Cyrus", "Linette", "Curt", "Nichole", "Jesica", "Wynell", "Michaele"];
-var longest_name = array;
-var answer = longest_name;
-var i, len, text;
-for (i = 9, len = array.length, text = ""; i++;) {
-    text += array[i];
+var str = 'Retta, Vern, Marica, Cyrus, Linette, Curt, Nichole, Jesica, Wynell, Michaele';
+var longest_name = (str) => {
+    const strArray = str.split(' ');
+    const sortedStrArray = strArray.sort(
+        (strA, strB) => {
+            return strB.lenght -
+            strA.lenght;
+        }
+    );
+    return sortedStrArray[9]
 }
-console.log("The longest name is" + answer)
+
+console.log("The longest name is" + (' ') + longest_name(str));
 
