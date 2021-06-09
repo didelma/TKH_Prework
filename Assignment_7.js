@@ -10,6 +10,6 @@ const idx = names.indexOf(even_names)
 
 names[idx] = ' '
 
-var ever_array = even_names
+var even_array = even_names
 
 console.log(even_names.indexOf('bax b'))
