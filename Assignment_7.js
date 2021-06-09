@@ -1,10 +1,4 @@
-//Have js print a list of "even" names as A and "odd" names and C
-//
-//var thing = "car" 
-//thing[0]//c 
-//thing[2]//r 
-//array = ["one",2,"3hree"] 
-//array[2] // 3hree
+//Have js print a list of "even" names as "a" and "odd" names as "c"
 
 const names = ['bob', 'jimmy', 'max b', 'bernie', 'jordan', 'future hendrix'];
 
